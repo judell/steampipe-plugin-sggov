@@ -1,4 +1,4 @@
-package singstat
+package sggov
 
 import (
 	"context"

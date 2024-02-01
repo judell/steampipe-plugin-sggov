@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
-	"steampipe-plugin-sggov/singstat"
+	"steampipe-plugin-sggov/sggov"
 )
 
 func main() {
 	plugin.Serve(&plugin.ServeOpts{
-		PluginFunc: singstat.Plugin,
+		PluginFunc: sggov.Plugin,
 	})
 }

@@ -18,12 +18,16 @@ have [Steampipe installed and working](https://steampipe.io/downloads)!
     cd steampipe-plugin-sggov
     ```
 
-2. Build and install the plugin using the Makefile.
+2. make
     ```shell
-    make install
+    make
     ```
 
-3. Run Steampipe.
+3. Copy config
+   ```shell
+   cp config/ssgov.spc ~/.steampipe/config/ssgov.spc
+
+4. Run Steampipe.
    ```shell
    steampipe query
    ```

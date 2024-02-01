@@ -1,0 +1,3 @@
+connection "sggov" {
+  plugin = "sggov"
+}
